@@ -2,13 +2,14 @@
 
 ![GitHub followers](https://img.shields.io/github/followers/rayepenber095)
 ![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/rayepenber095)
+[![](https://visitcount.itsvg.in/api?id=rayepenber095&icon=0&color=3)](https://visitcount.itsvg.in)
 
 <h3 align="left">💻 I'm Raye Pamber</h3>
 <h2 align="left">Computer Scientist | Cyber Security Expert | Vulnerability Researcher</h2>
 
 <img class="rounded-image" src="https://avatars.githubusercontent.com/u/0000000" alt="rayepenber" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover;" align="right" />
 
-### 🧠 About Me
+## 🧠 About Me
 
 Hey — I’m someone who thinks a little differently about the digital world.
 
@@ -25,8 +26,6 @@ This space is where I share ideas, tools, and techniques from the edges of:
 - Digital freedom & philosophy
 
 Sometimes it’s technical, sometimes it’s reflective — but always real.
-
-> I’m not here to lecture or impress — just to document, share, and help others navigate the noisy mess that is the modern digital age.
 
 If you care about **truth**, **freedom**, and the **hidden layers of the internet**,  
 you’ll probably feel right at home here.
@@ -60,15 +59,6 @@ you’ll probably feel right at home here.
 
 ---
 
-<h2>🚧 Currently Building & Breaking</h2>
-
-Exploring how to **secure open systems**, **detect the undetectable**, and understand **what lies beneath**.  
-If I’m in your system… relax — I’m probably just helping it become safer.
-
----
-
-
-
 
 ## 🌐 Socials:
 
@@ -94,7 +84,7 @@ If I’m in your system… relax — I’m probably just helping it become safer
 </div>
 
 
-# 💻 Tech Stack:
+## 💻 Tech Stack:
 
 <!-- Programming Languages -->
 <h3>💻 Programming Languages</h3>
@@ -212,22 +202,25 @@ If I’m in your system… relax — I’m probably just helping it become safer
   <img src="https://img.shields.io/badge/xbox-%23107C10.svg?style=for-the-badge&logo=xbox&logoColor=white" />
 </p>
 
-
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=rayepenber095&theme=shadow_green&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=rayepenber095&theme=shadow_green&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=rayepenber095&theme=shadow_green&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=rayepenber095&theme=shadow_green&no-frame=false&no-bg=false&margin-w=4)
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=merko)
+## 📊 GitHub Stats:
+
+<div align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=rayepenber095&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=shadow_green&locale=en&hide_border=false" height="150" alt="stats graph" />
+  
+  <a href="https://git.io/streak-stats">
+    <img src="https://nirzak-streak-stats.vercel.app/?user=rayepenber095&theme=shadow_green&hide_border=false" height="150" alt="GitHub Streak" />
+  </a>
+  
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rayepenber095&locale=en&hide_title=false&layout=compact&card_width=500&langs_count=20&theme=shadow_green&hide_border=false" height="300" width="400" alt="languages graph" />
+</div>
+
 
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=rayepenber095&limit=5&theme=shadow_green&combine_all_yearly_contributions=true)
 
----
 [![](https://visitcount.itsvg.in/api?id=rayepenber095&icon=0&color=3)](https://visitcount.itsvg.in)
 
   ## 💰 You can help me by Donating
