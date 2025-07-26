@@ -20,20 +20,6 @@ I don’t take anything at face value. I question. I explore. I dig into what mo
 
 This space is where I share ideas, tools, and techniques from the edges of:
 
-- Cybersecurity & hacking
-- Digital surveillance & countermeasures
-- OSINT & exploit strategies
-- Digital freedom & philosophy
-
-Sometimes it’s technical, sometimes it’s reflective — but always real.
-
-If you care about **truth**, **freedom**, and the **hidden layers of the internet**,  
-you’ll probably feel right at home here.
-
----
-
-<h2>🛠️ Technical Focus</h2>
-
 <ul>
   <li>Red Team Tactics</li>
   <li>Advanced Persistent Threat (APT) Analysis</li>
@@ -45,17 +31,10 @@ you’ll probably feel right at home here.
   <li>Infrastructure Hacking</li>
 </ul>
 
----
+Sometimes it’s technical, sometimes it’s reflective — but always real.
 
-<h2>🧪 Research Areas</h2>
-
-<ul>
-  <li>Digital Privacy & Surveillance Systems</li>
-  <li>Operating System Internals</li>
-  <li>Cyber Threat Intelligence (CTI)</li>
-  <li>Software & Protocol Fuzzing</li>
-  <li>Internet Censorship Circumvention</li>
-</ul>
+If you care about **truth**, **freedom**, and the **hidden layers of the internet**,  
+you’ll probably feel right at home here.
 
 ---
 
