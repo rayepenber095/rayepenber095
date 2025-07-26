@@ -1,8 +1,8 @@
-<img align = "" src="https://github.com/rayepenber095/rayepenber095/blob/main/files/tumblr_3ac054f8d07200ed00f0c833b4105c63_ecbb5a14_540.webp" width="1000" height="250" alt="awjunaid">
+<img align = "" src="https://github.com/rayepenber095/rayepenber095/blob/main/files/tumblr_3ac054f8d07200ed00f0c833b4105c63_ecbb5a14_540.webp" width="1000" height="250" alt="rayepenber095">
 
 ![GitHub followers](https://img.shields.io/github/followers/rayepenber095)
 ![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/rayepenber095)
-[![](https://visitcount.itsvg.in/api?id=rayepenber095&icon=0&color=3)](https://visitcount.itsvg.in)
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=rayepenber095&label=Profile%20views&color=000000&style=flat" alt="rayepenber095" /> </p>
 
 <h3 align="left">💻 I'm Raye Pamber</h3>
 <h2 align="left">Computer Scientist | Cyber Security Expert | Vulnerability Researcher</h2>
