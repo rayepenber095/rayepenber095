@@ -7,7 +7,7 @@
 <h3 align="left">💻 I'm Raye Pamber</h3>
 <h2 align="left">Computer Scientist | Cyber Security Expert | Vulnerability Researcher</h2>
 
-<img class="rounded-image" src="https://avatars.githubusercontent.com/u/0000000" alt="rayepenber" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover;" align="right" />
+<img class="rounded-image" src="https://github.com/rayepenber095/rayepenber095.github.io/blob/master/images/green.webp" alt="rayepenber" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover;" align="right" />
 
 ## 🧠 About Me
 
