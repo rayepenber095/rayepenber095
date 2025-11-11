@@ -37,7 +37,8 @@ If you care about **truth**, **freedom**, and the **hidden layers of the interne
 you’ll probably feel right at home here.
 
 ---
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img width=800 src="https://github-profile-trophy.vercel.app/?username=rayepenber095&theme=nord&no-frame=true" alt="rayepenber095" /></a> </p>
+[![trophy](https://github-profile-trophy.vercel.app/?username=rayepenber095)](https://github.com/ryo-ma/github-profile-trophy)
+
 
 ## 🌐 Socials:
 
