@@ -63,22 +63,61 @@ jobs:
           config_timezone: UTC
           config_output: svg
 
-      # ── 4. GitHub Trophy (Official ryo-ma action) ────────────────────
+      # ── 4. 🏆 Achievements ───────────────────────────────────────────
+      - name: Generate Achievements
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.achievements.svg
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_threshold: C      # Display achievements from rank C and higher
+          plugin_achievements_secrets: yes      # Show secret achievements
+          plugin_achievements_limit: 0          # Show all achievements (0 = unlimited)
+          plugin_achievements_display: compact  # Options: compact, detailed, compact
+          config_timezone: UTC
+          config_output: svg
+
+      # ── 5. 🧮 Repositories traffic ───────────────────────────────────
+      - name: Generate Traffic
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.traffic.svg
+          base: ""
+          plugin_traffic: yes                   # Shows repository traffic stats
+          config_timezone: UTC
+          config_output: svg
+
+      # ── 6. 🌸 Anilist watch list and reading list ────────────────────
+      - name: Generate Anilist
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.anilist.svg
+          base: ""
+          plugin_anilist: yes
+          plugin_anilist_user: rayepenber095    # Your Anilist username
+          plugin_anilist_limit: 5                # Show 5 items per section
+          plugin_anilist_sections: watching, reading  # Shows both anime watching & manga reading
+          plugin_anilist_medias: anime, manga    # Include both anime and manga
+          plugin_anilist_shuffle: no             # Keep consistent order
+          config_timezone: UTC
+          config_output: svg
+
+      # ── 7. GitHub Trophy (Official ryo-ma action) ────────────────────
       - name: Generate Trophy
         uses: ryo-ma/github-profile-trophy@master
         with:
           username: ${{ github.actor }}
           output_path: ./assets/trophy.svg
           token: ${{ secrets.GITHUB_TOKEN }}
-          # Note: Theme support might be different in official action
-          # The official action doesn't support all themes via workflow params
-          # You may need to append parameters to the filename or use environment variables
 
-      # ── 5. Create assets directory if it doesn't exist ───────────────
+      # ── 8. Create assets directory if it doesn't exist ───────────────
       - name: Ensure assets directory exists
         run: mkdir -p assets
 
-      # ── 6. Commit and push all generated files ───────────────────────
+      # ── 9. Commit and push all generated files ───────────────────────
       - name: Commit and push changes
         run: |
           git config --global user.name 'github-actions[bot]'
@@ -91,7 +130,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Update GitHub metrics and trophy [skip ci]"
+            git commit -m "Update GitHub metrics [skip ci]"
             
             # Pull latest changes before pushing (prevents rejection error)
             git pull --rebase origin main
@@ -111,9 +150,11 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           
-      - name: Upload trophy artifact
+      - name: Upload all metrics as artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: github-trophy
-          path: assets/trophy.svg
+          name: all-metrics
+          path: |
+            *.svg
+            assets/*.svg
           if-no-files-found: warn
