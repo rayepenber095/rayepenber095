@@ -66,21 +66,38 @@ My work sits at the intersection of offensive and defensive security. I approach
 
 <div align="center">
 
-<!-- METRICS GENERATED VIA GITHUB ACTIONS -->
-<!-- Last updated: Daily at 00:00 UTC -->
+## 📊 GitHub Analytics
 
-### 📊 STATISTICS
+<!-- Row 1: Stats + Streak -->
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <h3>📊 Stats</h3>
+        <img src="metrics.stats.svg" />
+      </td>
+      <td align="center" width="50%">
+        <h3>🔥 Streak</h3>
+        <img src="metrics.streak.svg" />
+      </td>
+    </tr>
+  </table>
+</div>
 
-![Stats](metrics.stats.svg)
-
-### 🔥 STREAK
-
-![Streak](metrics.streak.svg)
-
-### 💻 LANGUAGES
-
-![Languages](metrics.languages.svg)
-
+<!-- Row 2: Languages + Trophies -->
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <h3>💻 Languages</h3>
+        <img src="metrics.languages.svg" />
+      </td>
+      <td align="center" width="50%">
+        <h3>🏆 Trophies</h3>
+        <img src="metrics.trophy.svg" />
+      </td>
+    </tr>
+  </table>
 </div>
 
 ### 📈 Contribution Activity
