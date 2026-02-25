@@ -61,6 +61,21 @@ My work sits at the intersection of offensive and defensive security. I approach
 </div>
 
 ---
+## 🏆 ACHIEVEMENTS
+
+![Achievements](metrics.achievements.svg)
+
+## 🧮 REPOSITORY TRAFFIC
+
+![Traffic](metrics.traffic.svg)
+
+## 🌸 ANILIST ACTIVITY
+
+![Anilist](metrics.anilist.svg)
+
+## 🏆 TROPHIES
+
+![Trophy](assets/trophy.svg)
 
 ## <img src="https://media.giphy.com/media/coxQHKASG60HrHtvkt/giphy.gif" width="35"> GitHub Activity
 
